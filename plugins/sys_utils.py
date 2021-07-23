@@ -44,7 +44,7 @@ async def pingy(client, message):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await hmm.edit(
-        f"**█▀█ █▀█ █▄░█ █▀▀ █ \n█▀▀ █▄█ █░▀█ █▄█ ▄**\n➲ `{round(ms)}ms` \n➲ `{uptime}` \n➲ `{mys}`"
+        f"**🥰😛Pong!🤗😄**\n➲ `{round(ms)}ms` \n➲ `{uptime}` \n➲ `{mys}`"
     )
 
 
@@ -58,7 +58,7 @@ async def amialive(client, message):
     du = psutil.disk_usage(client.workdir)
     disk = f"{humanbytes(du.used)} / {humanbytes(du.total)} " f"({du.percent}%)"
     alive = f"""
-**{me_}'s Friday-UserBot is Alive!**
+**{me_}'s UserBot is Alive!**
 
 ➔ **Version :** __{friday_version}__
 ➔ **Uptime :** __{get_readable_time((time.time() - start_time))}__
